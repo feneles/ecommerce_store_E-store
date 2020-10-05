@@ -1,4 +1,4 @@
-import bcryps from "bcryptjs";
+import bcrypt from "bcryptjs";
 
 const users = [
   {
@@ -9,12 +9,12 @@ const users = [
   },
   {
     name: "Mark Benson",
-    email: "admin@example.com",
+    email: "markb@example.com",
     password: bcrypt.hashSync("123456", 10),
   },
   {
     name: "John Novak",
-    email: "admin@example.com",
+    email: "johnn@example.com",
     password: bcrypt.hashSync("123456", 10),
   },
 ];
